@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SignInWithFireBase</string>
+    <string name="emailSignIn">Email</string>
+    <string name="passwordSignIn">Password</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="cpasswordSignIn">Confirm Password</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="cpasswordSignUp">Confirm Password</string>
+    <string name="passwordSignUp">Password</string>
+    <string name="emailSignUp">Email</string>
+</resources>
