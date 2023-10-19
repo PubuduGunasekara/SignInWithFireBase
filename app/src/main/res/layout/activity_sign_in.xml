@@ -74,6 +74,15 @@
                 android:layout_marginTop="15dp"
                 android:gravity="center"
                 android:text="Sign Up from here!" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/signin_forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Forgot Password" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 

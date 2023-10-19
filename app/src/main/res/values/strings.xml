@@ -8,4 +8,7 @@
     <string name="cpasswordSignUp">Confirm Password</string>
     <string name="passwordSignUp">Password</string>
     <string name="emailSignUp">Email</string>
+    <string name="emailForgotPassword">Enter your email</string>
+    <string name="btnSendEmail">Send Reset Link</string>
+    <string name="btnFPDMoveSignIn">Sign In</string>
 </resources>

@@ -45,6 +45,7 @@ class SignInActivity : AppCompatActivity() {
             }
         }
 
+        //this function will check if the user is already logged into the app, and authenticate the user and navigate to the relevent screen
         fun onStart() {
             super.onStart()
             if (firebaseAuth.currentUser != null) {
@@ -52,5 +53,12 @@ class SignInActivity : AppCompatActivity() {
                 startActivity(intent)
             }
         }
+
+        //navigate to forgot password page
+        signInBinding.signinForgotPassword.setOnClickListener {
+            val intent = Intent(this, ForgotPassword::class.java)
+            startActivity(intent)
+        }
+
     }
 }
